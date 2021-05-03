@@ -2,37 +2,37 @@
 
 def volume_calc(a, b, c):
     volume_calc_test = True
-    ifDec = False;
+    ifDec = False
 
     for firstInput in str(a):
 
         if firstInput.isdigit() == False and (firstInput != '.'):
 
-            volume_calc_test = False;
+            volume_calc_test = False
 
         elif firstInput == '.' and ifDec == False:
 
-            ifDec = True;
+            ifDec = True
 
     for secondInput in str(b):
 
         if secondInput.isdigit() == False and (secondInput != '.'):
 
-            volume_calc_test = False;
+            volume_calc_test = False
 
         elif secondInput == '.' and ifDec == False:
 
-            ifDec = True;
+            ifDec = True
         
     for thirdInput in str(c):
 
         if thirdInput.isdigit() == False and (thirdInput != '.'):
 
-            volume_calc_test = False;
+            volume_calc_test = False
 
         elif thirdInput == '.' and ifDec == False:
 
-            ifDec = True;
+            ifDec = True
     
     if volume_calc_test == True:
 
